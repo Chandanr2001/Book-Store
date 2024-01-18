@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <p align="center">Order Details </p>
+  <form action="" method="get">
+s
+  <table color="blue" width="568" border="1" align="center">
+    <tr>
+      <td><div align="right">Product Name </div></td>
+      <td><input name="pname" type="text" id="pname"  /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Product Cast </div></td>
+      <td><input name="pcost" type="text" id="pcost" /></td>
+    </tr>
+    <tr>
+      <td width="192"> <div align="right">Quantity </div></td>
+      <td width="360"><input type="text" name="totalQty"  /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Total Amount </div></td>
+      <td><input type="text" name="totalAmt" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Enter Address </div></td>
+      <td><textarea name="address" cols="50" rows="5"></textarea></td>
+    </tr>
+    
+    <tr>
+      <td>Enter Card Details </td>
+      <td><p align="right">card holder Email
+          <input type="text" name="chname" />
+      </p>
+        <p align="right">card type
+          <select name="cardtype" size="1">
+            <option>credit card</option>
+            <option>debit card</option>
+            <option>visa card</option>
+            </select>
+        </p>
+        <p align="right">enter 15 digit card number
+        <input name="cardNum" type="text" size="15" />
+</p>
+      <p align="right">Enter CVV number
+        <input name="cvv" type="text" size="3" />
+</p></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+       <button type="submit" name="Submit" value="Submit"   onclick="alert('Order Placed')">Submit</button>
+        
+        </div></td>
+    </tr>
+  </table>
+  </form>
+
+</body>
+</html>
